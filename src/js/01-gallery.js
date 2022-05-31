@@ -15,8 +15,8 @@ const galleryMarkup = galleryItems
       preview,
       description,
     }) => `<a class="gallery__item" href="${original}">
-   <img class="gallery__image" src="${preview}" alt="${description}" />
-   </a>`
+            <img class="gallery__image" src="${preview}" alt="${description}" />
+          </a>`
   )
   .join('');
 
